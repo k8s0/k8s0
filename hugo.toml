@@ -1,0 +1,33 @@
+baseURL = "https://k8s0.dev/"
+languageCode = "en-us"
+title = "k8s0.dev"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+
+[pagination]
+  pagerSize = 1000
+
+[params]
+  author = "Martyn Figueiredo"
+  description = "Kubernetes 0"
+  defaultTheme = "dark"        # Options: "light", "dark", "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  env = "production"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
