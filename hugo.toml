@@ -17,6 +17,14 @@ defaultContentLanguage = "en"
   ShowCodeCopyButtons = true
   env = "production"
 
+[params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-96x96.png"
+  favicon32x32 = "favicon-96x96.png"
+  apple_touch_icon = "apple-touch-icon.png"
+  safari_pinned_tab = "favicon.svg"
+  webmanifest = "site.webmanifest"
+
 [menu]
 
   [[menu.main]]
